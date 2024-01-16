@@ -1,0 +1,86 @@
+/* adminstyle.css */
+
+/*
+* Template Name: UntreeStore
+* Template Author: Untree.co
+* Author URI: https://untree.co/
+* License: https://creativecommons.org/licenses/by/3.0/
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+body {
+  overflow-x: hidden;
+  position: relative;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+  color: #6a6a6a;
+  font-size: 14px;
+  background-color: #eff2f1;
+}
+
+/* ... (other styles) */
+
+/* Admin Dashboard Styles */
+.admin-navbar {
+  background: #3b5d50 !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.admin-navbar .navbar-brand {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.admin-navbar .navbar-brand > span {
+  opacity: .4;
+}
+
+.admin-navbar .navbar-toggler {
+  border-color: transparent;
+}
+
+.admin-content {
+  background: #eff2f1;
+  padding: 20px;
+}
+
+/* adminstyle.css */
+/* Add custom styles for admin details */
+
+.admin-details-content {
+  margin-top: 20px;
+}
+
+.admin-details-content img {
+  margin-top: 10px;
+}
+
+/* Custom Styles for Each Page (Add more if needed),
+ all pages have same design */
+ 
+.order-list-content,
+.customer-list-content,
+.flower-bouquet-list-content,
+.membership-list-content,
+.receipt-list-content {
+  margin-bottom: 40px;
+}
+
+.order-list-content h2,
+.customer-list-content h2,
+.flower-bouquet-list-content h2,
+.membership-list-content h2,
+.receipt-list-content h2 {
+  color: #3b5d50;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* ... (other styles for specific pages) */
